@@ -1,0 +1,3 @@
+streamlit
+#To make requests, we need the requests package, but streamlit will already install that for us.
+#⚠️ Don’t include any of the modules from base Python or Streamlit Cloud will throw an error when deploying! For example, we’ll need datetime later on, but that one comes out of the box with Python, so we don’t add it to requirements.txt.
