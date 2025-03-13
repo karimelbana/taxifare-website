@@ -72,7 +72,7 @@ m = leafmap.Map(center=(pickup_longitude, pickup_latitude), zoom=10)
 #m = leafmap.Map()
 #data = "https://raw.githubusercontent.com/opengeos/leafmap/master/examples/data/us_cities.csv"
 #m.add_points_from_xy(data, x="longitude", y="latitude")
-m.add_points_from_xy(df, x="latitude", y="longitude", marker_colors=['red'])
+m.add_points_from_xy(df, x="latitude", y="longitude", marker_colors=['red', 'white'])
 #m.add_points_from_xy(df, x="latitude", y="longitude", marker_colors=['red'])
 
 m.to_streamlit(height=600)
